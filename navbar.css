@@ -1,0 +1,16 @@
+#navbar {
+width: 100%;
+}
+#navbar > form {
+  border: 1px solid transparent;
+  text-align: end;
+}
+#navbar > form > input {
+  background: 0%;
+  color: orange;
+  padding: 2%;
+  border: 0ch;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+#header {
+  height: 40px;
+  width: 50%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid transparent;
+}
+#Heading {
+  display: flex;
+  border: 1px solid transparent;
+}
+#header > #findmovie {
+  width: 60%;
+  cursor: pointer;
+}
+#header > #find:hover {
+  color: white;
+  background-color: black;
+}
+#header > #find {
+  border: 0.2px solid black;
+  border-radius: 10%;
+  font-size: medium;
+  cursor: pointer;
+  background-color: white;
+}
+#header > #Logo {
+  font-weight: bold;
+  border: 0ch;
+  border-radius: 10%;
+  padding: 0.5% 3%;
+  font-size: x-large;
+  cursor: pointer;
+  background-color: #f5c518;
+}
+#error_box {
+  text-align: end;
+  margin-top: 10%;
+  border: 1px solid transparent;
+}
+#container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 2%;
+  grid-gap: 2%;
+  border: 1px solid transparent;
+}
+#every {
+  height: 500px;
+  margin-bottom: 5%;
+}
+#every > img {
+  width: 100%;
+  height: 75%;
+  cursor: pointer;
+}
+.maringleft {
+  margin-left: 5%;
+}
+#every > div {
+  height: 20px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 3%;
+  border: 1px solid transparent;
+}
+#every > p {
+  height: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: larger;
+  margin: auto;
+  margin-top: 3%;
+  font-weight: bold;
+  border: 1px solid transparent;
+}
+
+#slideshow {
+  width: 95%;
+  margin: auto;
+  height: 400px;
+  border: 1px solid transparent;
+  margin-top: 1%;
+}
+#imagesrc {
+  background-image: url("https://akamaividz2.zee5.com/image/upload/w_1013,h_405,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-6-4z571927/cover/1170x658withlogob2ce6424cede4dde8163202b135ad862.jpg");
+  background-size: cover;
+  height: 90%;
+  width: 100%;
+  cursor: pointer;
+}
