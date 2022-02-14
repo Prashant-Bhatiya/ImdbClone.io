@@ -41,7 +41,7 @@ async function GetData(){
         
         let check = document.getElementById("findmovie").value;
 
-        let res = await fetch(`http://www.omdbapi.com/?apikey=45c7fb6&s=${check}`);
+        let res = await fetch(`https://www.omdbapi.com/?apikey=45c7fb6&s=${check}`);
         
         let data = await res.json();
     
@@ -129,7 +129,7 @@ regularMovies();
 async function regularMovies(){
     try{
 
-        let res2 = await fetch(`http://www.omdbapi.com/?apikey=45c7fb6&s=type`);
+        let res2 = await fetch(`https://www.omdbapi.com/?apikey=45c7fb6&s=type`);
         
         let data2 = await res2.json();
         
